@@ -161,7 +161,7 @@ var featureOverlay = new ol.layer.Vector({
 });
 
 var doHighlight = true;
-var doHover = false;
+var doHover = true;
 
 var highlight;
 var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
